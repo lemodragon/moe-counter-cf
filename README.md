@@ -8,22 +8,22 @@ Fork of Moe Counter for fast global access powered by Cloudflare Workers.
 
 ## Demo
 
-[![Gelbooru](https://count.dsrkafuu.net/dsrkafuu:demo)](https://count.dsrkafuu.net/dsrkafuu:demo)
+[![Gelbooru](https://moe-counter.lvdpub.com/feifa:demo)](https://moe-counter.lvdpub.com/feifa:demo)
 
 <details>
 <summary>More Themes and Customizations</summary>
 
 **A-SOUL (with `theme=asoul&length=10`)**
 
-[![A-SOUL](https://count.dsrkafuu.net/dsrkafuu:demo?theme=asoul&length=10&add=0)](https://count.dsrkafuu.net/dsrkafuu:demo?theme=asoul&length=10)
+[![A-SOUL](https://moe-counter.lvdpub.com/feifa:demo?theme=asoul&length=10&add=0)](https://moe-counter.lvdpub.com/feifa:demo?theme=asoul&length=10)
 
 **Moebooru (with `theme=moebooru&length=auto`)**
 
-[![Moebooru](https://count.dsrkafuu.net/dsrkafuu:demo?theme=moebooru&length=auto&add=0)](https://count.dsrkafuu.net/dsrkafuu:demo?theme=moebooru&length=auto)
+[![Moebooru](https://moe-counter.lvdpub.com/feifa:demo?theme=moebooru&length=auto&add=0)](https://moe-counter.lvdpub.com/feifa:demo?theme=moebooru&length=auto)
 
 **Rule 34 (with `theme=rule34&render=pixelated`)**
 
-[![Rule 34](https://count.dsrkafuu.net/dsrkafuu:demo?theme=rule34&render=pixelated&add=0)](https://count.dsrkafuu.net/dsrkafuu:demo?theme=rule34)
+[![Rule 34](https://moe-counter.lvdpub.com/feifa:demo?theme=rule34&render=pixelated&add=0)](https://moe-counter.lvdpub.com/feifa:demo?theme=rule34)
 
 </details>
 
@@ -32,8 +32,8 @@ Fork of Moe Counter for fast global access powered by Cloudflare Workers.
 **Public Counter**
 
 ```
-https://count.dsrkafuu.net/{id}
-https://count.dsrkafuu.net/{id}?theme={asoul,gelbooru,moebooru,rule34}&render={auto,pixelated}&length={1-10,auto}&add={0,1}
+https://moe-counter.lvdpub.com/{id}
+https://moe-counter.lvdpub.com/{id}?theme={asoul,gelbooru,moebooru,rule34}&render={auto,pixelated}&length={1-10,auto}&add={0,1}
 ```
 
 1. `{id}`: Any custom string between 1-256 chars (`a-zA-Z0-9:.@_-` allowed)
@@ -49,8 +49,8 @@ Make a pull request to add your id in `settings.json` to use the free public cou
 **API Endpoints**
 
 ```
-GET https://count.dsrkafuu.net/api/{id}
-DELETE https://count.dsrkafuu.net/api/{id}
+GET https://moe-counter.lvdpub.com/api/{id}
+DELETE https://moe-counter.lvdpub.com/api/{id}
 ```
 
 DELETE is not enabled in public counter.
@@ -58,9 +58,9 @@ DELETE is not enabled in public counter.
 **HTML and Markdown**
 
 ```
-<img src="https://count.dsrkafuu.net/{id}" alt="{id}" />
-![{id}](https://count.dsrkafuu.net/{id})
-[![{id}](https://count.dsrkafuu.net/{id})](https://count.dsrkafuu.net/{id})
+<img src="https://moe-counter.lvdpub.com/{id}" alt="{id}" />
+![{id}](https://moe-counter.lvdpub.com/{id})
+[![{id}](https://moe-counter.lvdpub.com/{id})](https://moe-counter.lvdpub.com/{id})
 ```
 
 ## Self-hosting

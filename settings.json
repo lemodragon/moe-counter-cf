@@ -1,6 +1,6 @@
 {
   "defaults": {
-    "theme": "gelbooru",
+    "theme": "rule34",
     "length": 7,
     "render": "auto"
   },
@@ -12,8 +12,8 @@
     "enabled": true
   },
   "ids": {
-    "dsrkafuu:demo": "Demo for GitHub & preview site.",
-    "dsrkafuu:home": "Personal blog & GitHub page.",
-    "dsrkafuu:tools": "For DSRTOOLs counter."
+    "feifa:demo": "Demo for GitHub & preview site.",
+    "feifa:home": "Personal homepage.",
+    "feifa:tools": "For DSRTOOLs counter."
   }
 }
