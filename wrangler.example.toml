@@ -1,0 +1,13 @@
+name = "moe-counter-cf"
+account_id = "52cfbxxxxxxxxxxxxxxxxxxxxx"
+workers_dev = true
+compatibility_date = "2024-11-19"
+
+kv_namespaces = [
+  { binding = "KV", id = "6323xxxxxxxxxxxxxxxxxx" },
+]
+
+[build]
+command = "npm run build"
+
+main = "./dist/worker.js"
