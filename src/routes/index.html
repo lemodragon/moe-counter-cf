@@ -60,6 +60,63 @@
         font-size: 14px;
         margin-top: 16px;
       }
+
+      /* 主题部分样式 */
+      .theme-section {
+        margin-top: 40px;
+        padding: 20px;
+      }
+      
+      .theme-section summary {
+        cursor: pointer;
+        color: #7793cc;
+        font-size: 20px;
+        margin-bottom: 20px;
+        outline: none;
+      }
+
+      .theme-section summary:hover {
+        color: #5a76b3;
+      }
+
+      .theme-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        text-align: left;
+        margin: 0 auto;
+        max-width: 1200px;
+      }
+
+      .theme-item {
+        background: #f5f5f5;
+        padding: 15px;
+        border-radius: 8px;
+      }
+
+      .theme-item h3 {
+        margin-bottom: 10px;
+        color: #333;
+        text-align: left;
+      }
+
+      .theme-item img {
+        width: 100%;
+        height: auto;
+      }
+
+      .code-block {
+        background-color: #f9f9f9; 
+        padding: 10px; 
+        border-radius: 8px; 
+        border: 1px solid #d1d5db; 
+        font-family: monospace; 
+        color: #2563eb; 
+        word-break: break-all; 
+        width: 80%; 
+        max-width: 600px; 
+        margin: 0 auto; 
+      }
     </style>
   </head>
   <body>
@@ -87,11 +144,240 @@
           >Home Page
         </a>
       </div>
+      <div className="max-w-2xl mx-auto p-6 border rounded-lg shadow-md bg-white">
+        <h2 className="text-2xl font-semibold text-green-600 mb-4">
+          Simple theme changing tutorial
+        </h2>
+        
+        <div class="code-block">
+          <code>https://www.example.com/feifa:demo?theme={3d-num,ai-1}</code>
+        </div>
+      </div>
+      
+      <!-- 主题展示部分 -->
+      <details class="theme-section">
+        <summary>More Themes</summary>
+        <div class="theme-grid">
+          <div class="theme-item">
+            <h3>3d-num</h3>
+            <img src="https://count.getloli.com/@demo?theme=3d-num" alt="3d-num">
+          </div>
+          <div class="theme-item">
+            <h3>ai-1</h3>
+            <img src="https://count.getloli.com/@demo?theme=ai-1" alt="ai-1">
+          </div>
+          <div class="theme-item">
+            <h3>asoul</h3>
+            <img src="https://count.getloli.com/@demo?theme=asoul" alt="asoul">
+          </div>
+          <div class="theme-item">
+            <h3>booru-ffsr</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-ffsr" alt="booru-ffsr">
+          </div>
+          <div class="theme-item">
+            <h3>booru-helltaker</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-helltaker" alt="booru-helltaker">
+          </div>
+          <div class="theme-item">
+            <h3>booru-huggboo</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-huggboo" alt="booru-huggboo">
+          </div>
+          <div class="theme-item">
+            <h3>booru-jaypee</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-jaypee" alt="booru-jaypee">
+          </div>
+          <div class="theme-item">
+            <h3>booru-koe</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-koe" alt="booru-koe">
+          </div>
+          <div class="theme-item">
+            <h3>booru-lewd</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-lewd" alt="booru-lewd">
+          </div>
+          <div class="theme-item">
+            <h3>booru-lisu</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-lisu" alt="booru-lisu">
+          </div>
+          <div class="theme-item">
+            <h3>booru-mjg</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-mjg" alt="booru-mjg">
+          </div>
+          <div class="theme-item">
+            <h3>booru-mof</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-mof" alt="booru-mof">
+          </div>
+          <div class="theme-item">
+            <h3>booru-nandroid</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-nandroid" alt="booru-nandroid">
+          </div>
+          <div class="theme-item">
+            <h3>booru-qualityhentais</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-qualityhentais" alt="booru-qualityhentais">
+          </div>
+          <div class="theme-item">
+            <h3>booru-r6gdrawfriends</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-r6gdrawfriends" alt="booru-r6gdrawfriends">
+          </div>
+          <div class="theme-item">
+            <h3>booru-rfck</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-rfck" alt="booru-rfck">
+          </div>
+          <div class="theme-item">
+            <h3>booru-smtg</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-smtg" alt="booru-smtg">
+          </div>
+          <div class="theme-item">
+            <h3>booru-snyde</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-snyde" alt="booru-snyde">
+          </div>
+          <div class="theme-item">
+            <h3>booru-the-collection</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-the-collection" alt="booru-the-collection">
+          </div>
+          <div class="theme-item">
+            <h3>booru-touhoulat</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-touhoulat" alt="booru-touhoulat">
+          </div>
+          <div class="theme-item">
+            <h3>booru-townofgravityfalls</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-townofgravityfalls" alt="booru-townofgravityfalls">
+          </div>
+          <div class="theme-item">
+            <h3>booru-twifanartsfw</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-twifanartsfw" alt="booru-twifanartsfw">
+          </div>
+          <div class="theme-item">
+            <h3>booru-ve</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-ve" alt="booru-ve">
+          </div>
+          <div class="theme-item">
+            <h3>booru-vivi</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-vivi" alt="booru-vivi">
+          </div>
+          <div class="theme-item">
+            <h3>booru-vp</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-vp" alt="booru-vp">
+          </div>
+          <div class="theme-item">
+            <h3>booru-yuyuyui</h3>
+            <img src="https://count.getloli.com/@demo?theme=booru-yuyuyui" alt="booru-yuyuyui">
+          </div>
+          <div class="theme-item">
+            <h3>capoo-1</h3>
+            <img src="https://count.getloli.com/@demo?theme=capoo-1" alt="capoo-1">
+          </div>
+          <div class="theme-item">
+            <h3>capoo-2</h3>
+            <img src="https://count.getloli.com/@demo?theme=capoo-2" alt="capoo-2">
+          </div>
+          <div class="theme-item">
+            <h3>e621</h3>
+            <img src="https://count.getloli.com/@demo?theme=e621" alt="e621">
+          </div>
+          <div class="theme-item">
+            <h3>food</h3>
+            <img src="https://count.getloli.com/@demo?theme=food" alt="food">
+          </div>
+          <div class="theme-item">
+            <h3>gelbooru</h3>
+            <img src="https://count.getloli.com/@demo?theme=gelbooru" alt="gelbooru">
+          </div>
+          <div class="theme-item">
+            <h3>gelbooru-h</h3>
+            <img src="https://count.getloli.com/@demo?theme=gelbooru-h" alt="gelbooru-h">
+          </div>
+          <div class="theme-item">
+            <h3>green</h3>
+            <img src="https://count.getloli.com/@demo?theme=green" alt="green">
+          </div>
+          <div class="theme-item">
+            <h3>kasuterura-1</h3>
+            <img src="https://count.getloli.com/@demo?theme=kasuterura-1" alt="kasuterura-1">
+          </div>
+          <div class="theme-item">
+            <h3>kasuterura-2</h3>
+            <img src="https://count.getloli.com/@demo?theme=kasuterura-2" alt="kasuterura-2">
+          </div>
+          <div class="theme-item">
+            <h3>kasuterura-3</h3>
+            <img src="https://count.getloli.com/@demo?theme=kasuterura-3" alt="kasuterura-3">
+          </div>
+          <div class="theme-item">
+            <h3>kasuterura-4</h3>
+            <img src="https://count.getloli.com/@demo?theme=kasuterura-4" alt="kasuterura-4">
+          </div>
+          <div class="theme-item">
+            <h3>kyun</h3>
+            <img src="https://count.getloli.com/@demo?theme=kyun" alt="kyun">
+          </div>
+          <div class="theme-item">
+            <h3>love-and-deepspace</h3>
+            <img src="https://count.getloli.com/@demo?theme=love-and-deepspace" alt="love-and-deepspace">
+          </div>
+          <div class="theme-item">
+            <h3>minecraft</h3>
+            <img src="https://count.getloli.com/@demo?theme=minecraft" alt="minecraft">
+          </div>
+          <div class="theme-item">
+            <h3>moebooru</h3>
+            <img src="https://count.getloli.com/@demo?theme=moebooru" alt="moebooru">
+          </div>
+          <div class="theme-item">
+            <h3>moebooru-h</h3>
+            <img src="https://count.getloli.com/@demo?theme=moebooru-h" alt="moebooru-h">
+          </div>
+          <div class="theme-item">
+            <h3>morden-num</h3>
+            <img src="https://count.getloli.com/@demo?theme=morden-num" alt="morden-num">
+          </div>
+          <div class="theme-item">
+            <h3>nixietube-1</h3>
+            <img src="https://count.getloli.com/@demo?theme=nixietube-1" alt="nixietube-1">
+          </div>
+          <div class="theme-item">
+            <h3>nixietube-2</h3>
+            <img src="https://count.getloli.com/@demo?theme=nixietube-2" alt="nixietube-2">
+          </div>
+          <div class="theme-item">
+            <h3>normal-1</h3>
+            <img src="https://count.getloli.com/@demo?theme=normal-1" alt="normal-1">
+          </div>
+          <div class="theme-item">
+            <h3>normal-2</h3>
+            <img src="https://count.getloli.com/@demo?theme=normal-2" alt="normal-2">
+          </div>
+          <div class="theme-item">
+            <h3>original-new</h3>
+            <img src="https://count.getloli.com/@demo?theme=original-new" alt="original-new">
+          </div>
+          <div class="theme-item">
+            <h3>original-old</h3>
+            <img src="https://count.getloli.com/@demo?theme=original-old" alt="original-old">
+          </div>
+          <div class="theme-item">
+            <h3>rule34</h3>
+            <img src="https://count.getloli.com/@demo?theme=rule34" alt="rule34">
+          </div>
+          <div class="theme-item">
+            <h3>shimmie2</h3>
+            <img src="https://count.getloli.com/@demo?theme=shimmie2" alt="shimmie2">
+          </div>
+          <div class="theme-item">
+            <h3>sketch-1</h3>
+            <img src="https://count.getloli.com/@demo?theme=sketch-1" alt="sketch-1">
+          </div>
+          <div class="theme-item">
+            <h3>sketch-2</h3>
+            <img src="https://count.getloli.com/@demo?theme=sketch-2" alt="sketch-2">
+          </div>
+          <!-- 可以继续添加更多主题... -->
+        </div>
+      </details>
     </main>
-    <footer>Copyright &copy; 2020 journey-ad, 2022 DSRKafuU</footer>
+    <footer>Copyright &copy; 2020 journey-ad, 2022 DSRKafuU ,2024 lemodragon</footer>
     <script>
       (function () {
-        var img = document.querySelector('img');
+        var img = document.querySelector('header img');
         var btn = document.getElementById('theme');
         var themes = ['asoul', 'gelbooru', 'moebooru', 'rule34'];
         var idx = 1;
