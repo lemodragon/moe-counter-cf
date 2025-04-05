@@ -72,12 +72,11 @@ DELETE https://moe-counter.lvdpub.com/api/{id}
 5. 使用 `wrangler publish` 编译并发布 worker
 
 ## >>> 小白简单3步部署(推荐)
-<a href="https://mp.weixin.qq.com/s/japKYq1NpsNkwq5bE8Mg1Q" target="_blank" style="font-size: 18px; color: red;">小白简单3步部署(推荐)</a>
+<a href="https://mp.weixin.qq.com/s/japKYq1NpsNkwq5bE8Mg1Q" target="_blank" style="font-size: 18px; color: red;">查看详情</a>
 1. 在 Cloudflare Workers 中创建一个 worker
 2. 复制blob/master/worker.js下的js文件粘贴
 3. 完成
 
-<iframe src="https://mp.weixin.qq.com/s/japKYq1NpsNkwq5bE8Mg1Q" width="800" height="600"></iframe>
 
 ## Credits
 
