@@ -1,6 +1,6 @@
 # Moe Counter CF
 
-[English](https://github.com/dsrkafuu/moe-counter-cf#readme) | [中文](https://github.com/dsrkafuu/moe-counter-cf/blob/master/README.zh.md)
+[English](https://github.com/lemodragon/moe-counter-cf#readme) | [中文](https://github.com/lemodragon/moe-counter-cf/blob/master/README.zh.md)
 
 Fork of Moe Counter for fast global access powered by Cloudflare Workers.
 
